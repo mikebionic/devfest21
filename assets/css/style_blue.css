@@ -1090,7 +1090,7 @@ img {
 # Speakers
 --------------------------------------------------------------*/
 .speakers {
-  background-image: url("../images/speakers_bg.jpg");
+  background-image: url("../images/gdgblue.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1287,7 +1287,7 @@ img {
 # Benefits
 --------------------------------------------------------------*/
 .benefits {
-  background-image: url("../images/benefit_bg.jpg");
+  background-image: url("../images/gdgyellow.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1433,7 +1433,9 @@ img {
 # Register
 --------------------------------------------------------------*/
 .register {
-  background-image: url("../images/register_bg.jpg");
+  /* margin-top: 20%;
+  margin-bottom: 20%; */
+  background-image: url("../images/gdgred.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1837,4 +1839,18 @@ img {
   font-size: 1.3em;
   padding: 0;
   margin-left: 12px;
+}
+
+.gif-banners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.background-video {
+  height: 100%;
+  padding: 1rem;
+  /* object-fit: cover; */
+  /* position: fixed; */
 }
