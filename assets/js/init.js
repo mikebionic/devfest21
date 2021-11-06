@@ -55,7 +55,7 @@
           +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%D</div><span class="fp-unit">Days</span></div></div>'
           +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%H</div><span class="fp-unit">Hours</span></div></div>'
           +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%M</div><span class="fp-unit">Minutes</span></div></div>'
-          +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%S</div><span class="fp-unit">Seconds</span></div></div>'
+          // +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%S</div><span class="fp-unit">Seconds</span></div></div>'
       ));
     });
 
