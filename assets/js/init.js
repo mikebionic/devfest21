@@ -49,7 +49,7 @@
 
     //
     // Countdown
-    var time = '2021/11/20'; //Change this date with your counting date. Its Format is "Y/M/D"
+    var time = '2021/12/5'; //Change this date with your counting date. Its Format is "Y/M/D"
     $('#countdown-timer').countdown( time , function( e ) {
       $(this).html(e.strftime(''
           +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%D</div><span class="fp-unit">Days</span></div></div>'
