@@ -1703,6 +1703,49 @@ img {
   }
 }
 /*
+
+# Topics
+--------------------------------------------------------------*/
+.topic-panel {
+  margin-bottom: 30px;
+}
+.topic-panel .topics {
+  margin-bottom: 60px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.topic-panel .topics li {
+  list-style-type: none;
+}
+.topic-panel .topics li > a {
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 3px 12px;
+  height: 100px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+.topic-panel .topics li > a img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  vertical-align: middle;
+  width: auto;
+  max-width: 90%;
+  max-height: 90px;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*
+
 # Sponsors
 --------------------------------------------------------------*/
 .sponsor-panel {

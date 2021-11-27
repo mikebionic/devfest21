@@ -128,4 +128,35 @@
     }
   });
 
+
+  $('.topics').owlCarousel({
+    loop            : true,
+    autoplay        : true,
+    autoplayTimeout : 5000,
+    margin          : 10,
+    responsiveClass : true,
+    responsive:{
+      0:{
+        items   : 2,
+        margin  : 0
+      },
+      424:{
+        items   : 3,
+        margin  : 0
+      },
+      736:{
+        items   : 4
+      },
+      991:{
+        items   : 8
+      },
+      1000:{
+        items   : 8
+      },
+      1200:{
+        items   : 8
+      }
+    }
+  });
+
 })(window.jQuery);
