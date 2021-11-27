@@ -84,31 +84,6 @@
 
     });
 
-    //
-    // Subscribe (mailchimp)
-    var mailSubscribe   = $('.subscribe-form');
-
-    mailSubscribe.ajaxChimp({
-      callback: mailchimpCallback,
-      url: "http://frontpixels.us11.list-manage.com/subscribe/post?u=8ed724b6f4db710960cbc2439&amp;id=26648b74c9" // Just paste your mailchimp list url inside the "".
-    });
-
-    function mailchimpCallback(resp) {
-
-      var successMessage    = $('.subscribe-success'),
-        errorMessage      = $('.subscribe-error'),
-        successIcon       = '<i class="ion-ios-checkmark"></i> ',
-        errorIcon         = '<i class="ion-ios-close"></i> ';
-
-      if (resp.result === 'success') {
-        successMessage.html(successIcon + resp.msg).fadeIn(1000);
-        errorMessage.fadeOut(300);
-
-      } else if(resp.result === 'error') {
-        errorMessage.html(errorIcon + resp.msg).fadeIn(1000);
-      }
-
-    }
   });
 
   //
