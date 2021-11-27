@@ -49,7 +49,7 @@
 
     //
     // Countdown
-    var time = '2021/12/5'; //Change this date with your counting date. Its Format is "Y/M/D"
+    var time = '2021/12/5 10:30'; //Change this date with your counting date. Its Format is "Y/M/D"
     $('#countdown-timer').countdown( time , function( e ) {
       $(this).html(e.strftime(''
           +'<div class="countdown-box"><div class="box-inner"><div class="count-amount">%D</div><span class="fp-unit">Days</span></div></div>'
@@ -109,61 +109,6 @@
       }
 
     }
-
-    //
-    // Google Map
-    var mapLocation = new google.maps.LatLng(40.712784, -74.005941); //change coordinates here
-    var marker;
-    var map;
-
-    function initialize() {
-      var mapOptions = {
-        zoom: 12, //change zoom here
-        center: mapLocation,
-        scrollwheel: false,
-        styles: [
-          {"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#212121"}]},
-          {"featureType":"landscape","elementType":"all","stylers":[{"color":"#e3e3e3"}]},
-          {"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},
-          {"featureType":"poi","elementType":"labels.text","stylers":[{"visibility":"off"}]},
-          {"featureType":"road","elementType":"all","stylers":[{"saturation":-60},{"lightness":15}]},
-          {"featureType":"road.highway","elementType":"all","stylers":[{"color":"#e3e3e3","visibility":"simplified"}]},
-          {"featureType":"road.arterial","elementType":"labels.icon","stylers":[{"visibility":"off"}]},
-          {"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},
-          {"featureType":"water","elementType":"all","stylers":[{"color":"#b3e5fc"},{"visibility":"on"}]}
-        ]
-
-      };
-
-      map = new google.maps.Map(document.getElementById('map'),
-          mapOptions);
-
-      // Replace with your data
-      var contentString = '<div class="map-info-box">'
-          + '<div class="info-head"><img src="assets/images/logo_black.png" alt=""></div>'
-          + '<p class="map-address"><i class="ion-ios-location"></i> New York, USA<br><i class="ion-ios-telephone"></i> 012-345-6789<br><i class="ion-email"></i> <a href="mailto:info@example.com">info@example.com</a></p>'
-
-      var infowindow = new google.maps.InfoWindow({
-        content: contentString
-      });
-
-      var image = 'assets/images/marker.png';
-      marker = new google.maps.Marker({
-        map: map,
-        draggable: true,
-        title: 'Rhyme', //change title here
-        icon: image,
-        animation: google.maps.Animation.DROP,
-        position: mapLocation
-      });
-
-      google.maps.event.addListener(marker, 'click', function() {
-        infowindow.open(map, marker);
-      });
-    }
-
-    // google.maps.event.addDomListener(window, 'load', initialize);
-
   });
 
   //

@@ -1711,6 +1711,8 @@ img {
 .sponsor-panel .sponsors {
   margin-bottom: 60px;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 .sponsor-panel .sponsors li {
   list-style-type: none;
