@@ -148,13 +148,13 @@
         items   : 4
       },
       991:{
-        items   : 8
+        items   : 5
       },
       1000:{
-        items   : 8
+        items   : 6
       },
       1200:{
-        items   : 8
+        items   : 6
       }
     }
   });
