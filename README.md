@@ -4,6 +4,8 @@ Official webpage of GDG Ashgabat's DevFest 2021
 
 **Community Project — 2021**
 
+[Website](https://mikebionic.github.io/portfolio/static/projects/web_proj/devfest2021_ui.webp)
+
 A dedicated website built for the **Google Developers Group (GDG) Ashgabat DevFest 2021** event.
 The site included the full event agenda, speaker profiles, and a dedicated page for event information and social sharing.
 
@@ -23,3 +25,4 @@ The site included the full event agenda, speaker profiles, and a dedicated page 
 ## Purpose
 
 The website aimed to be the central online hub for **DevFest Ashgabat 2021**, making it easy for participants to find event details, connect with speakers, and share the event with others.
+
